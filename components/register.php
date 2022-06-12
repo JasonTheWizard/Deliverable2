@@ -21,10 +21,13 @@
 
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+    <label for="name"><b>Name</b></label>
+    <input type="name" placeholder="Enter name" name="name" id="name" required>
     <hr>
 
     <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-    <button type="submit" class="registerbtn">Register</button>
+    <button type="submit" name="register" class="registerbtn">Register</button>
   </div>
 
   <div class="container">
@@ -32,3 +35,4 @@
     
   </div>
 </form>
+
